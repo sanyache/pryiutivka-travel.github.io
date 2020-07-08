@@ -324,7 +324,7 @@ section
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 140px;
 }
 .guide
 {
@@ -332,14 +332,16 @@ section
     max-width: 80%;
     display: flex;
     justify-content: center;
-    background: #fff;
+    background: #111;
+    opacity: 0.8;
     /* margin-top: 30px;
     padding: 15px; */
 }
 .guide p
 {
     padding: 20px;
-    font-size: 18px;
+    font-size: 20px;
+    color: #fff;
 }
 .guide p img
 {
