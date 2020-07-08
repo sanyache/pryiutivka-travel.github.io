@@ -100,7 +100,7 @@ section
     position: relative;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 .about .contentBox
@@ -127,7 +127,7 @@ section
 .text 
 {
     color: #fff;
-    font-size: 1em;
+    font-size: 20px;
 }
 .banner2
 {
@@ -354,9 +354,9 @@ section
 
 @media (max-width: 767px)
 {
-    selection
+    section
     {
-        padding: 40px;
+        padding: 13px;
     }
     .banner .content h2
     {
@@ -413,5 +413,13 @@ section
     {
         flex-direction: column;
         max-width: 350px;
+    }
+    .text
+    {
+        font-size: 14px;
+    }
+    .titleText
+    {
+        font-size: 18px;
     }
 }
